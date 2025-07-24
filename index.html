@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnvToolbox - Root用户工具箱</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .title {
+            font-size: 4rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+            background-size: 600% 100%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: rainbow 5s linear infinite;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            max-width: 80%;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+        
+        .highlight {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+        }
+        
+        .footer {
+            position: fixed;
+            bottom: 20px;
+            font-size: 0.8rem;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">EnvToolbox</div>
+    <div class="subtitle">
+        一款基于<span class="highlight">kr script</span>的环境工具箱，专门为<span class="highlight">Root用户</span>打造，
+        让用户<span class="highlight">合理、更好</span>地使用Root，避免软件强行检测导致<span class="highlight">封号</span>或<span class="highlight">无法进入</span>。
+    </div>
+    <div class="footer">© 2025 EnvToolbox | 专为高级用户设计 | Made by Beyyds / Mzsy233</div>
+</body>
+</html>
