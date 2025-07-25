@@ -9,7 +9,7 @@ echo "=========================================="
 echo "           开始获取模块包"
 echo "==========================================\n"
 
-busybox wget "https://123-184-221-20.pd1.cjjd19.com:30443/download-cdn.123295.com/123-404/5e23bafc/1707985-0/5e23bafcf305715f674d5c93d1b3d594/c-m86?v=5&t=1753456477&s=17534564773adb28a7412c241bcd9fe43d17847485&r=E54DD4&bzc=2&bzs=313730373938353a32333138363239373a32383730303735353a30&bzp=0&bi=1388116533&filename=HideOne_v2.5b.zip&x-mf-biz-cid=804f05d8-eb6e-458b-8c31-756b594b9c5c-6eaa77&auto_redirect=0&cache_type=1&ndcp=1&xmfcid=e455734b-4d27-465c-8649-74131a03e6cc68a09c88be1" -O /data/local/tmp/Hidemodule.zip
+busybox wget "http://zydbai.com/api/v3/file/download/slV5aDSv7ZTgaGgS?sign=0frPaS5GownsS_1OvOL3K4dtw0EURqyUfOxtT75z_RM%3D%3A1753469361" -O /data/local/tmp/Hidemodule.zip
 
 if [ -f "/data/local/tmp/Hidemodule.zip" ]; then
     echo "\n=========================================="
@@ -51,6 +51,12 @@ if [ -f "/data/local/tmp/Hidemodule.zip" ]; then
             echo "\n=========================================="
             echo "      临时文件已成功删除！"
             echo "==========================================\n"
+            sheep 2
+            echo "\n=========================================="
+            echo "     接下来需要重启设备保证模块生效 10秒后重启"
+            echo "==========================================\n"
+            sleep 10
+      reboot
         else
             echo "\n=========================================="
             echo "       Hidemodule.zip 刷入失败！"
@@ -66,8 +72,4 @@ else
     echo "         下载失败，请检查网络或重试！"
     echo "==========================================\n"
 fi
-            echo "\n=========================================="
-            echo "     接下来需要重启设备保证模块生效 10秒后重启"
-            echo "==========================================\n"
-            sleep 10
-      reboot
+            
