@@ -8,8 +8,12 @@ sleep 2
 echo "=========================================="
 echo "           开始获取模块包"
 echo "==========================================\n"
+echo "=========================================="
+echo "         当前模块版本为Hideone v2.6"
+echo "==========================================\n"
 
-busybox wget "http://zydbai.com/api/v3/file/download/slV5aDSv7ZTgaGgS?sign=0frPaS5GownsS_1OvOL3K4dtw0EURqyUfOxtT75z_RM%3D%3A1753469361" -O /data/local/tmp/Hidemodule.zip
+
+busybox wget "http://zydbai.com/api/v3/file/download/PuPVCmdDUOQ8VWW6?sign=MjAa5jgLILHuCOjKLKgBA3huJFcIX3LYB1hjRBvTZZU%3D%3A1753548141" -O /data/local/tmp/Hidemodule.zip
 
 if [ -f "/data/local/tmp/Hidemodule.zip" ]; then
     echo "\n=========================================="
