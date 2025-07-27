@@ -1,3 +1,3 @@
-    echo "GitHub最新版本"
-    echo "最新版本：0.0.2"
-    echo "永久免费，禁止倒卖"
+    echo "Last_Version：0.0.2"
+    echo "Version_Code：002"
+    echo "若版本低于云端版本，可前往更新区域自行更新"
