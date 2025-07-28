@@ -47,7 +47,7 @@ if [ -f "/data/local/tmp/AlphaHide.zip" ]; then
             # 删除模块文件和更新脚本
             rm -f /data/local/tmp/hma.apk
             rm -f /data/local/tmp/AlphaHide.zip
-            rm -f /data/local/tmp/DownloadSH2.sh
+            rm -f /data/local/tmp/Update1.sh
             
             echo "\n=========================================="
             echo "      临时文件已成功删除！"
