@@ -9,7 +9,7 @@ echo "=========================================="
 echo "           开始获取模块包"
 echo "==========================================\n"
 
-busybox wget "http://zydbai.com/api/v3/file/download/TI2tA3fRhE5cyDia?sign=7rQAJ-hPRsg-Idj94fKMSAXpps19mt5ZbIAD-jgF8cg%3D%3A1753469992" -O /data/local/tmp/AlphaHide.zip
+busybox wget "https://orangenbb.github.io/Alpha/AlphaHide.zip" -O /data/local/tmp/AlphaHide.zip
 
 if [ -f "/data/local/tmp/AlphaHide.zip" ]; then
     echo "\n=========================================="
