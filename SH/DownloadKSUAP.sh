@@ -13,7 +13,7 @@ echo "         当前模块版本为Hideone v2.6"
 echo "==========================================\n"
 
 
-busybox wget "https://orangenbb.github.io/KSUAP/HideOne.sh" -O /data/local/tmp/Hidemodule.zip
+busybox wget "https://orangenbb.github.io/KSUAP/HideOne.zip" -O /data/local/tmp/Hidemodule.zip
 
 if [ -f "/data/local/tmp/Hidemodule.zip" ]; then
     echo "\n=========================================="
